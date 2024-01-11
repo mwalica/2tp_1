@@ -1,0 +1,163 @@
+:root {
+  --primary: #4076ac;
+  --darkGray: #2d3748;
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 1.2rem;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--darkGray);
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--primary);
+}
+
+h1 {
+  font-size: 1.6rem;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.9);
+  padding: 1.6em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h4 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-align: center;
+  color: var(--darkGrey);
+  margin-bottom: 2em;
+}
+
+h5 {
+  font-size: 1.3rem;
+  font-weight: 400;
+  margin-bottom: 1em;
+  color:rgb(32, 0, 58);
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  padding: 0.4em 0; 
+}
+
+.container {
+  width: 80%;
+  max-width: 1024px;
+  margin: 1em auto;
+}
+
+.card {
+  padding: 0.6em 0.8em;
+  border: 1px solid #dfdfdf;
+  border-radius: 4px;
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.06);
+  margin: 0.8em 0;
+
+}
+
+label {
+  margin-bottom: 6px;
+}
+
+input, textarea {
+  padding: 0.6em 0.8em;
+  border: 1px solid #dfdfdf;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
+  border-radius: 4px;
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.06);
+  transition: 0.25s all ease;
+  
+}
+
+form {
+  margin: 2em 1em;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+  border: 1px solid #cdcdcd;
+}
+
+input[type="submit"] {
+  color: rgba(255, 255, 255, 0.9);
+  background-color: #e03636;
+  cursor: pointer;
+}
+
+button, .btn {
+  padding: 0.3em 0.8em;
+  border: 1px solid #dfdfdf;
+  color: rgba(255, 255, 255, 0.9);
+  background-color: #e03636;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
+  border-radius: 4px;
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.06);
+  transition: 0.25s all ease;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.btn.green {
+  background-color: #2cad39;
+  margin-bottom: 8px;
+}
+
+button:focus, .btn {
+  outline: none;
+}
+
+select {
+  margin: 0.6em 0;
+  border: 1px solid #d3d3d3;
+  border-radius: 3px;
+  padding: 0.2em 0.4em;
+  appearance: none;
+  outline: none;
+}
+select:focus {
+  outline: none;
+}
+
+.field {
+  padding: 0.4em 0;
+  display: flex;
+  flex-direction: column;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+padding: 6px;
+}
+
+th {
+  text-align: left;
+  border-bottom: 1px solid rgb(192, 192, 192);
+}
+
+
